@@ -4,32 +4,38 @@
   height: 100vh;
   display: flex;
   background-color: white;
+  
 }
 .leftcol{
-  width: 65%;
+  width: 75%;
   height: 100%;
   padding-right: 10px;
   text-align: left;
-  padding-left: 15px;
+  padding-left: 35px;
+  padding-bottom: 50px;
 }
 .myname{
   color: black;
   font-size: 60px;
   font-weight: 600;
   font-family:'Times New Roman', Times, serif;
+  margin-bottom: 100px;
 }
 .heading{
   color: rgb(3, 3, 138);
   font-size: 19px;
   font-weight: 500;
-  line-height: 12px;
+  line-height: 17px;
+  margin-top: 40px;
+  text-transform: uppercase;
 }
 
 .subheading{
   color: black;
   font-size: 25px;
   font-weight: 600;
-  line-height: 1px;
+  line-height: 24px;
+  margin-bottom : 0px;
 }
 .content{
   color: rgb(70, 57, 57);
@@ -38,21 +44,37 @@
 
 }
 .rightcol{
-  width: 35%;
+  width: 25%;
   height: 100%;
   text-align: left;
-  line-height: 10px;
   padding-top: 50px;
   padding-left: 10px;
+  padding-right: 35px;
 }
 .email{
   color: darkblue;
 }
-.links{
+.upperlinks{
+  line-height: 10px;
+}
+
+.langcontainer{
+  display: flex;
 }
 
 
+.lang .content{
+  font-size: 15px;
+  line-height: 9px;
+}
+.rate .content{
+  font-size: 15px;
+  line-height: 9px;
+}
 
+.rate{
+padding-left: 10px;  
+}
 .images{
   height: 40px;
   width: 40px;
