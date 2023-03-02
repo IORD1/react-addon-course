@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   background-color: white;
-  
+  align-self: center;
 }
 .leftcol{
   width: 75%;
