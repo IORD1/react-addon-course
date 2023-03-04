@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import lin from './lin.png';
 import lc from './lc.png';
 import git from './git.png'
-import './App.css';
+import './Resume.css';
+import {Link} from "react-router-dom";
 
-function App() {
+
+function Resume() {
   return (
-    <div className="App">
+    <div className="Apps">
+      
+
       <div className="leftcol">
         <p className='myname'>Prathmesh Ingole</p>
         <p className="heading">Education</p>
@@ -97,4 +100,4 @@ function App() {
   );
 }
 
-export default App;
+export default Resume;

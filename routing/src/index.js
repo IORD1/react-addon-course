@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './components/App';
-import Form from './components/Form'
+import { BrowserRouter } from 'react-router-dom';
+// import './index.css';
+import Apps from './App';
 import reportWebVitals from './reportWebVitals';
+import Calculator from './components/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-    <Form />
+    <BrowserRouter>
+    <Apps />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

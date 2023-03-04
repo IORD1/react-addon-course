@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import {useState} from 'react'
+import './Calculator.css';
+import {useState} from 'react';
+import {Link} from "react-router-dom";
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function Calculator(){
   const [input,setInput] = useState('');
@@ -20,10 +21,12 @@ function Calculator(){
   }
 
   return (
-    <div className='button'>
+   
+    <div className='buttonsss'>
+       
       <div className='divider'>
-        <input type="text" value={input} readOnly/>
-        <input type="text" value={result} readOnly/>
+        <input type="text" className='calinput' value={input} readOnly/>
+        <input type="text" className='calinput' value={result} readOnly/>
       </div>
       
       <div className='divider'>

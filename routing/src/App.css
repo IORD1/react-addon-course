@@ -1,0 +1,33 @@
+.navbar{
+  display: flex;
+}
+
+.contentss{
+  padding: 10px;
+  width: 100%;
+  
+}
+
+.Links{
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  border: 1px purple solid;
+  border-radius: 25px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Links p{
+  margin: 5px;
+}
+
+.Links:hover{
+  background-color: rgba(151, 10, 151, 0.479);
+  border-color: white;
+  color: white;
+  transition: 300ms ease;
+}
+

@@ -2,8 +2,9 @@
   text-align: center;
   background-color: rebeccapurple;
 }
-.button{
-  padding: 20px;
+.buttonsss{
+  padding: 50px;
+
 }
 .divider{
   display: flex;
@@ -19,9 +20,9 @@
   color: rgb(42, 20, 63);
 }
 .buttons :hover{
-  background-color:rgba(119, 37, 202, 0.247);
+  background-color:rgba(205, 199, 211, 0.247);
 }
-input{
+.calinput{
   height: 40px;
   font-size: 20px;
   margin: 30px;
@@ -29,6 +30,8 @@ input{
   border-radius: 8px;
   color: rgb(42, 20, 63);
   font-weight: 500;
+  background-color: rgb(155, 155, 155);
+  border: none;
 }
 button{
   height: 40px;
